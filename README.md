@@ -17,4 +17,6 @@ This will help investors having an idea of the best commodities to invest in.
 Market indicators using the REST API suggested in the project definition will be used: **Marketstack API**.
 
 ### Architecture
-Under development.
+Under development. (Explain each part)
+
+![images/architecture.png](images/architecture.png)

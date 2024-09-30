@@ -17,6 +17,16 @@ This will help investors having an idea of the best commodities to invest in.
 Market indicators using the REST API suggested in the project definition will be used: **Marketstack API**.
 
 ### Architecture
-Under development. (Explain each part)
-
+The architecture that we defined as baseline for this project is:
 ![images/architecture.png](images/architecture.png)
+
+This can be adapted during the project development considering new inputs and findings.
+
+Please find below a high level description of each of the architecture blocks:
+ - To connect to Marketstack, we will be using its REST API (https://marketstack.com/documentation).
+ - ETL pipeline will be developed in Python, using OOP principles and structure studied during the course.
+ - Girhub will be used for colaboration and code versioning. The Repor has beenn created as well as a branch for each of the developers.
+ - The running python code will be later devloyed in a Docker image, ensuring we get a solution that is OS agnostic.
+ - Docker image will then been deployed in AWS, using ECS.
+ - DWH and Logs will be loaded into a RDS service in AWS.
+ - In case of unstructured Data repository need, S3 will be used.

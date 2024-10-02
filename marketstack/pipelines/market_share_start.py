@@ -7,7 +7,7 @@ if __name__ == "__main__":
     api_key_id = os.environ.get("marketstack_api_key")
 
     extract_tickers(api_key_id)
-    extract_eod(api_key_id, date_from="2024-09-01", date_to="2024-09-30")
+    extract_eod(api_key_id)
 
 
 

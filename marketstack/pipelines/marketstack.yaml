@@ -2,8 +2,8 @@ name: marketstack
 config: 
   tickers_path: "./DC_Project_01/marketstack/data/marketstack/tickers.csv"
   log_folder_path: "./marketstack/logs"
-  start_date: "2024-01-06"
-  end_date: "2024-01-10"
+  target_table: "marketstack_eods_tech"
+  incremental_extract_column: "timestamp"
 schedule:
   run_seconds: 5
   poll_seconds: 2

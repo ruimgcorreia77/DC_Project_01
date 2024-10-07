@@ -1,0 +1,3 @@
+ticker,ticker_name,stock_exchange,stock_exchange_acronym,stock_exchange_country,stock_exchange_city
+AAPL,"Apple Inc","NASDAQ Stock Exchange",NASDAQ,USA,"New York"
+MSFT,"Microsoft Corporation","NASDAQ Stock Exchange",NASDAQ,USA,"New York"

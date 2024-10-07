@@ -1,0 +1,101 @@
+name,symbol,has_intraday,has_eod,country,stock_exchange.name,stock_exchange.acronym,stock_exchange.mic,stock_exchange.country,stock_exchange.country_code,stock_exchange.city,stock_exchange.website
+Microsoft Corporation,MSFT,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Apple Inc,AAPL,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Amazon.com Inc,AMZN,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Alphabet Inc - Class C,GOOG,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Alphabet Inc - Class A,GOOGL,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Alibaba Group Holding Ltd,BABA,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Meta Platforms Inc - Class A,FB,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+BERKSHIRE HATHAWAY INC,BRK.B,False,False,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+BERKSHIRE HATHAWAY INC,BRK.A,False,False,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Vodafone Group plc,VOD,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Visa Inc - Class A,V,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+JPMorgan Chase & Company,JPM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Johnson & Johnson,JNJ,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Walmart Inc,WMT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Mastercard Incorporated - Class A,MA,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Procter & Gamble Company,PG,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Taiwan Semiconductor Manufacturing,TSM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Chunghwa Telecom,CHT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Roche Holding AG,RHHBF,False,True,,OTC Markets,,OTCM,USA,US,New York,www.otcmarkets.com
+Roche Holding AG,RHHVF,False,True,,OTC Markets,,OTCM,USA,US,New York,www.otcmarkets.com
+AT&T Inc,T,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Unitedhealth Group Inc,UNH,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Bank Of America Corp,BAC,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Home Depot Inc,HD,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Intel Corp,INTC,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Coca-Cola Company,KO,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Verizon Communications Inc,VZ,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Roche Holding AG,RHHBY,False,True,,OTC Markets,,OTCM,USA,US,New York,www.otcmarkets.com
+Exxon Mobil Corp,XOM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Walt Disney Co (The),DIS,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Merck & Co Inc,MRK,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Novartis AG,NVS,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Comcast Corp - Class A,CMCSA,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Pfizer Inc,PFE,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+PepsiCo Inc,PEP,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Toyota Motor Corporation,TM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Chevron Corp,CVX,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Adobe Inc,ADBE,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Cisco Systems Inc,CSCO,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Wells Fargo & Company,WFC,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+NVIDIA Corp,NVDA,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Netflix Inc,NFLX,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Oracle Corp,ORCL,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Boeing Company,BA,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+China Mobile Ltd ADR,CHL,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Salesforce Inc,CRM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Sap SE,SAP,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+McDonald`s Corp,MCD,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Nike Inc - Class B,NKE,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Abbott Laboratories,ABT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Citigroup Inc,C,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Medtronic Plc,MDT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+HSBC Holdings plc,HSBC,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Tesla Inc,TSLA,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Costco Wholesale Corp,COST,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Bristol-Myers Squibb Company,BMY,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+HSBC HOLDINGS PLC ADR EACH REPR 1/40 PREF SERIES ',HSBC/PA,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+PayPal Holdings Inc,PYPL,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Philip Morris International Inc,PM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+NextEra Energy Inc,NEE,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Abbvie Inc,ABBV,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Lilly(Eli) & Company,LLY,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+AMGEN Inc,AMGN,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Sanofi,SNY,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Thermo Fisher Scientific Inc,TMO,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+ASML Holding NV,ASML,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Astrazeneca plc,AZN,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Accenture plc - Class A,ACN,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+International Business Machines Corp,IBM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Honeywell International Inc,HON,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+UNITED TECHNOLOGIES CORP,UTX,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+TotalEnergies SE,TOT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Broadcom Inc,AVGO,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Texas Instruments Inc,TXN,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Novo Nordisk,NVO,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Union Pacific Corp,UNP,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Royal Bank Of Canada,RY,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+BP plc,BP,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Lockheed Martin Corp,LMT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+American Tower Corp,AMT,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Linde Plc.,LIN,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+GSK Plc,GSK,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Danaher Corp,DHR,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Charter Communications Inc - Class A,CHTR,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+HDFC Bank Ltd,HDB,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+General Electric Company,GE,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Starbucks Corp,SBUX,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Anheuser-Busch InBev SA/NV,BUD,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Gilead Sciences Inc,GILD,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+Toronto Dominion Bank,TD,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Sinopec Shanghai Petrochemical Co. Ltd,SHI,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Qualcomm Inc,QCOM,False,True,,NASDAQ Stock Exchange,NASDAQ,XNAS,USA,US,New York,www.nasdaq.com
+American Express Company,AXP,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+ROYAL DUTCH SHELL ADR EA REP 2 CL'A' EUR0.07,RDS.A,False,False,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Fidelity National Information Services Inc,FIS,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+British American Tobacco Plc,BTI,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+3M Company,MMM,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Lowe`s Cos. Inc,LOW,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+Diageo plc,DEO,False,True,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com
+ROYAL DUTCH SHELL ADR EA REP 2 CL'B' EUR0.07,RDS.B,False,False,,New York Stock Exchange,NYSE,XNYS,USA,US,New York,www.nyse.com

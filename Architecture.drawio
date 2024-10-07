@@ -1,6 +1,10 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="Xf6VGhU0pZc0enxL77tq">
+<<<<<<< HEAD
+    <mxGraphModel dx="2074" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+=======
     <mxGraphModel dx="1372" dy="739" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+>>>>>>> RuiC
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +12,11 @@
           <mxGeometry x="35" y="360" width="205" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4_OFItTyOyLlhAxlVNDo-43" value="&lt;b&gt;Deployment in AWS ECS&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+<<<<<<< HEAD
+          <mxGeometry x="281" y="120" width="839" height="440" as="geometry" />
+=======
           <mxGeometry x="281" y="120" width="639" height="440" as="geometry" />
+>>>>>>> RuiC
         </mxCell>
         <mxCell id="4_OFItTyOyLlhAxlVNDo-3" value="Data" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="60" y="374" width="70" height="80" as="geometry" />
@@ -16,7 +24,11 @@
         <mxCell id="4_OFItTyOyLlhAxlVNDo-5" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" parent="1" vertex="1">
           <mxGeometry x="160" y="390" width="50" height="48" as="geometry" />
         </mxCell>
+<<<<<<< HEAD
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-12" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;ETL Pipeline - Python&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;horizontal=1;labelPosition=center;verticalLabelPosition=bottom;" parent="1" vertex="1">
+=======
         <mxCell id="4_OFItTyOyLlhAxlVNDo-12" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;ETL Pipeline - Python&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;horizontal=1;labelPosition=center;verticalLabelPosition=bottom;" parent="1" vertex="1">
+>>>>>>> RuiC
           <mxGeometry x="361" y="360" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4_OFItTyOyLlhAxlVNDo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4_OFItTyOyLlhAxlVNDo-8" target="4_OFItTyOyLlhAxlVNDo-9" edge="1">
@@ -40,6 +52,21 @@
             <mxPoint x="360" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+<<<<<<< HEAD
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-19" value="Dataset" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="981" y="382" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.833;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4_OFItTyOyLlhAxlVNDo-12" target="4_OFItTyOyLlhAxlVNDo-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="771" y="360" as="sourcePoint" />
+            <mxPoint x="921" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="761" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+=======
+>>>>>>> RuiC
         <mxCell id="4_OFItTyOyLlhAxlVNDo-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4_OFItTyOyLlhAxlVNDo-27" target="4_OFItTyOyLlhAxlVNDo-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="601.3199999999999" y="357" as="targetPoint" />
@@ -68,6 +95,25 @@
         <mxCell id="4_OFItTyOyLlhAxlVNDo-33" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="4_OFItTyOyLlhAxlVNDo-32" vertex="1">
           <mxGeometry x="500" y="26" width="50" height="41" as="geometry" />
         </mxCell>
+<<<<<<< HEAD
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4_OFItTyOyLlhAxlVNDo-10" target="4_OFItTyOyLlhAxlVNDo-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-39" value="Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="921" y="174" width="160" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-24" value="&lt;b&gt;Logs&lt;/b&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="4_OFItTyOyLlhAxlVNDo-39" vertex="1">
+          <mxGeometry x="60" y="115" width="48" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-40" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="4_OFItTyOyLlhAxlVNDo-39" vertex="1">
+          <mxGeometry x="100" y="26" width="50" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-41" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecs;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1041" y="130" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OFItTyOyLlhAxlVNDo-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="290" width="120" height="60" as="geometry" />
+=======
         <mxCell id="4_OFItTyOyLlhAxlVNDo-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.831;exitY=0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4_OFItTyOyLlhAxlVNDo-32" source="4_OFItTyOyLlhAxlVNDo-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="439.84000000000015" y="186" as="sourcePoint" />
@@ -122,6 +168,7 @@
           <mxGeometry x="-0.1219" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+>>>>>>> RuiC
         </mxCell>
       </root>
     </mxGraphModel>

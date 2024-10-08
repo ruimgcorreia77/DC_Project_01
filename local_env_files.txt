@@ -9,3 +9,16 @@ LOGGING_DATABASE_NAME=dw_logging
 LOGGING_USERNAME=postgres
 LOGGING_PASSWORD=postgres
 LOGGING_PORT=5432
+
+
+API_KEY_ID=d564b4a470ad5f851ffcb7f9de554cfa
+SERVER_NAME=data-warehouse.czsq84s08qen.eu-west-1.rds.amazonaws.com
+DATABASE_NAME=dw
+DB_USERNAME=postgres
+DB_PASSWORD=mccc67CMWeYI4bEAR2ii
+PORT=5432
+LOGGING_SERVER_NAME=data-warehouse.czsq84s08qen.eu-west-1.rds.amazonaws.com
+LOGGING_DATABASE_NAME=dw_logging
+LOGGING_USERNAME=postgres
+LOGGING_PASSWORD=mccc67CMWeYI4bEAR2ii
+LOGGING_PORT=5432

@@ -48,6 +48,7 @@ class PostgreSqlClient:
         self.engine = create_engine(connection_url)
 
     def get_latest_timestamp(self, table: str, column: str) -> str:
+        #to allow for an incremental extract from source, extract the latest timestap from the target table
         try:
             # attempt to reflect existing table
             metadata = MetaData(self.engine)
@@ -58,8 +59,11 @@ class PostgreSqlClient:
                 return latest_date
 
         except NoSuchTableError:
-            return "2024-10-01"
-
+            return "2024-01-01"
+    
+    def execute_sql(self, sql: str) -> None:
+        self.engine.execute(sql)
+    
     def select_all(self, table: Table) -> list[dict]:
         return [dict(row) for row in self.engine.execute(table.select()).all()]
 
@@ -94,5 +98,4 @@ class PostgreSqlClient:
             },
         )
         self.engine.execute(upsert_statement)
-
 

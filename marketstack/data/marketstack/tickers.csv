@@ -1,3 +1,6 @@
 ticker,ticker_name,stock_exchange,stock_exchange_acronym,stock_exchange_country,stock_exchange_city
 AAPL,"Apple Inc","NASDAQ Stock Exchange",NASDAQ,USA,"New York"
 MSFT,"Microsoft Corporation","NASDAQ Stock Exchange",NASDAQ,USA,"New York"
+GOOGL,"Alphabet Inc - Class A","NASDAQ Stock Exchange",NASDAQ,USA,"New York"
+AMZN,"Amazon.com Inc","NASDAQ Stock Exchange",NASDAQ,USA,"New York"
+META,"Meta Platforms Inc - Class A","NYSE ARCA",NYSEARCA,USA,"New York"

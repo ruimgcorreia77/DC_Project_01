@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 import os
+from jinja2 import Environment, FileSystemLoader
 from marketstack.connectors.marketstack import MarketStactApiClient
 from marketstack.connectors.postgresql import PostgreSqlClient
 from marketstack.assets.marketstack import (
@@ -16,7 +17,7 @@ import schedule
 import time
 from marketstack.assets.pipeline_logging import PipelineLogging
 from marketstack.assets.metadata_logging import MetaDataLogging, MetaDataLoggingStatus
-
+from marketstack.assets.transform import execute_template_sql
 
 
 if __name__ == "__main__":
@@ -80,9 +81,9 @@ if __name__ == "__main__":
         DATABASE_NAME = os.environ.get("DATABASE_NAME")
         PORT = os.environ.get("PORT")
 
-        pipeline_logging.logger.info("Creating Alpaca Markets API client")
+        pipeline_logging.logger.info("Creating Marketstack API client")
         #extract
-        marketstack_api_client = MarketStactApiClient (api_key_id=API_KEY_ID)
+        marketstack_api_client = MarketStactApiClient(api_key_id=API_KEY_ID)
         postgresql_client = PostgreSqlClient(
         server_name=SERVER_NAME,
         database_name=DATABASE_NAME,
@@ -136,6 +137,17 @@ if __name__ == "__main__":
             metadata=metadata,
             load_method="upsert",
         )
+
+        pipeline_logging.logger.info("run post load transformation logic")
+        #second transform
+        transform_template_environment = Environment(
+            loader=FileSystemLoader("marketstack/assets/sql/transform")
+        )
+        execute_template_sql(
+            postgresql_client=postgresql_client,
+            environment=transform_template_environment,
+            table_name="tech_firm_performance")
+
         pipeline_logging.logger.info("Pipeline run successful")
         metadata_logger.log(
             status=MetaDataLoggingStatus.RUN_SUCCESS, logs=pipeline_logging.get_logs()

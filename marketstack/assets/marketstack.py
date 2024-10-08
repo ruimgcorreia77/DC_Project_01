@@ -2,13 +2,9 @@ import pandas as pd
 from marketstack.connectors.marketstack import MarketStactApiClient
 from marketstack.connectors.postgresql import PostgreSqlClient
 from pathlib import Path
-from sqlalchemy import create_engine, Table, Column, Integer, String, MetaData, Float, select, func # https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_core_creating_table.htm
-from sqlalchemy.engine import URL
-from sqlalchemy.dialects import postgresql
-from sqlalchemy.schema import CreateTable 
-from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, Table, MetaData # https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_core_creating_table.htm
 #https://docs.sqlalchemy.org/en/20/core/exceptions.html#sqlalchemy.exc.NoSuchTableError
-from sqlalchemy.exc import NoSuchTableError
+
 """
 put the get_latest_timestamp function in assets and build like the load function in Weather.py
 
@@ -18,7 +14,7 @@ def extract_eods(
     MarketStactApiClient: MarketStactApiClient, ticker_list: Path, start_time: str, end_time: str
 ) -> pd.DataFrame:
     """
-    Perform extraction using a filepath which contains a list of cities.
+    extracts end of day data from the marketstack API for a given list of tickers and start end dates.
     """
     df_tickers = pd.read_csv(ticker_list)
     eod_data = []
@@ -90,7 +86,4 @@ def load(
         raise Exception(
             "Please specify a correct load method: [insert, upsert, overwrite]"
         )
-
-
-
 

@@ -232,4 +232,6 @@ Calculated Data (KPIs) filtered only for the top 10 growing tickers:
     ]
 ```
 
-<span style="color: red;"><u>**DISCUSS ABOUT: Full, Incremental and Upsert load**</u></span>
+## Project Management
+We created a Trello for defining and follwoing the tasks:
+https://trello.com/b/iWBfj3tv/data-camp-project-1-group-5

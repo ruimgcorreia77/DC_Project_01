@@ -1,11 +1,11 @@
 FROM python:3.9
 
-WORKDIR /marketstack
+WORKDIR /DC_Project_01
 
-COPY /marketstack .
+COPY /DC_Project_01 .
 
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "-m", "pipelines.marketstack"]
+CMD ["python", "-m", "marketstack.pipelines.marketstack"]
